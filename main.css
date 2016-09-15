@@ -1,12 +1,62 @@
-body {
-
+body ul {
+    list-style-type: none;
+    width: 100%;
 }
 
-#start_game ul {
+#start_game {
+    text-align: center;
+}
+
+#start_game ul li {
+    width: 28%;
+    display: inline-block;
+    float: left;
+    border: solid gray 1px;
+    margin: 10px;
+    background-color: lightblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+#game ul li {
+    display: inline-block;
+    float: left;
+    border: solid black 2px;
+    margin: 10px;
+    background-color: gray;
+    width: 90px;
+    height: 140px;
+    padding: 0;
+}
+
+#win {
+    display: block;
+    clear: left;
+    text-align: center;
+}
+
+#win h1 {
+    color: red;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+#win h2 {
+    color: blue;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#win a:hover {
+     text-decoration: none;
+     font-size: 1.2em;
+}
+
+#win a {
     text-decoration: none;
-    
 }
 
-#easy {
 
-}
+
