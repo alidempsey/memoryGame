@@ -3,8 +3,11 @@ body ul {
     width: 100%;
 }
 
+/* STARTING THE GAME */
+
 #start_game {
     text-align: center;
+    width: 100%;
 }
 
 #start_game ul li {
@@ -20,6 +23,12 @@ body ul {
     text-align: center;
 }
 
+#start_game ul li:hover {
+    font-size: 1.7em;
+}
+
+/* GAME BOARD */
+
 #game ul li {
     display: inline-block;
     float: left;
@@ -30,6 +39,8 @@ body ul {
     height: 140px;
     padding: 0;
 }
+
+/* WINNING THE GAME */
 
 #win {
     display: block;
